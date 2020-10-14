@@ -2,29 +2,29 @@
 
 This exercise should be completed using Test Driven Development Technique
 
-  - Write Test classes in TDD approach 
+  - Write Test classes in the TDD approach 
   - Functionality of methods should be completed, such that all the test cases pass 
   - Some requirements/hints are mentioned below
 
 
-    In this problem, Super class method computes the product of two integers and Subclass overrides the method to compute the power of two integers
+    In this problem, the Super class method computes the product of two integers and Subclass overrides the method to compute the power of two integers
 
       - Should return product result when super type method is called using lambda expression created using method reference
       - Should return power result when sub type method is called using lambda expression created using method reference
    ```
    Class CalculatorUtility is the super class that must be implemented using TDD for the following method
-     - This method return the product of given two integers  
+     - This method returns the product of given two integers  
 
         + compute(): double
   
    Class NewCalculatorUtility is a subclass of CalculatorUtility that must be implemented using TDD for the following methods
 
-     - This method creates a lambda expression which uses compute method of the sub class NewCalculatorUtility 
+     - This method creates a lambda expression which uses the compute method of the sub class NewCalculatorUtility 
         Syntax used for method reference : this::instanceMethod
 
         + getPowerResult(): double
 
-     - This method creates a lambda expression which uses compute method of the super class CalculatorUtility
+     - This method creates a lambda expression which uses the compute method of the super class CalculatorUtility
         Syntax used for method reference : ClassName.super::instanceMethod  
   
         + getProductResult(): double  
@@ -47,7 +47,7 @@ This exercise should be completed using Test Driven Development Technique
  
    
 ## Instructions
-- Avoid printing unnecessary values other than expected output as given in sample
+- Avoid printing unnecessary values other than expected output as given in the sample
 - Take care of whitespace/trailing whitespace
 - Do not change the provided class/method names unless instructed
 - Follow best practices while coding  
